@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Favourite Film</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.8.8/semantic.min.css" />
+    </head>
+    <body>
+        <header>
+            <h1>My Favourite Film</h1>
+            <div class="ui menu">
+                <a href="index.html" class="item">Home</a>
+                <a href="about.html" class="item">About Me</a>
+                <a href="hobbies.html" class="item">Hobbies</a>
+                <a href="favourite-film.html" class="item">Favourite Film</a>
+                <a href="favourite-album.html" class="item">Favourite Album/Song</a>
+            </div>
+        </header>
+        
+        <main>
+            <div class="ui grid">
+                <div class="eight wide column">
+                    <h2 class="ui header">Film Title</h2>
+                    <p>The film "Inception" is my favourite movie because of its complex storytelling and stunning visuals.</p>
+                    <div class="ui image">
+                        <img src="s-l1200.jpg" alt="Inception Movie Poster">
+                    </div>
+                </div>
+                <div class="eight wide column">
+                    <h3 class="ui header">Details</h3>
+                    <table class="ui celled table">
+                        <thead>
+                            <tr><th>Director</th><th>Year</th><th>Genre</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Christopher Nolan</td><td>2010</td><td>Sci-Fi, Thriller</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <section>
+                <h3 class="ui header">Leave Your Thoughts</h3>
+                <form class="ui form">
+                    <div class="field">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+                    </div>
+                    <div class="field">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Leave a comment" required></textarea>
+                    </div>
+                    <button type="submit" class="ui button primary">Submit</button>
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>© 2024 Kacper Szymczak. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>

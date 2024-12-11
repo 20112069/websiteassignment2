@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About Me</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.8.8/semantic.min.css" />
+    </head>
+    <body>
+        <header>
+            <h1>About Me</h1>
+            <div class="ui menu">
+                <a href="index.html" class="item">Home</a>
+                <a href="about.html" class="item">About Me</a>
+                <a href="hobbies.html" class="item">Hobbies</a>
+                <a href="favourite-film.html" class="item">Favourite Film</a>
+                <a href="favourite-album.html" class="item">Favourite Album/Song</a>
+            </div>
+        </header>
+        
+        <main>
+            <div class="ui grid">
+                <div class="eight wide column">
+                    <h2 class="ui header">Who I Am</h2>
+                    <p>
+                        For me, playing football is more than just a sport; it's a passion and a means of bonding with
+                        teammates. It has been tremendously satisfying to win awards with my school team since it is a
+                        testament to the effort, cooperation, and commitment we all put forward. I will always treasure the
+                        excitement of the game and the delight of sharing in the victory.
+                    </p>
+                </div>
+                <div class="eight wide column">
+                    <p>
+                        In my spare time, I also enjoy volunteering for charity. Giving back to the community, whether
+                        through organizing events or supporting local causes, brings me a sense of fulfillment and purpose.
+                        Volunteering has broadened my perspective and taught me that success isn’t just about personal
+                        achievement, but about making a positive impact on others’ lives.
+                    </p>
+                    <div class="ui image">
+                        <img src="pictureofme.jpg" alt="Facetime with Ice Spice">
+                        <div class="ui label">Another one of my activities in my spare time</div>
+                    </div>
+                </div>
+            </div>
+
+            <section>
+                <h3 class="ui header">Share Something About Yourself</h3>
+                <form class="ui form">
+                    <div class="field">
+                        <label for="your-name">Your Name</label>
+                        <input type="text" id="your-name" name="your-name" placeholder="Enter your name" required />
+                    </div>
+                    <div class="field">
+                        <label for="about-you">What Defines You</label>
+                        <textarea id="about-you" name="about-you" placeholder="Tell us something about yourself" required></textarea>
+                    </div>
+                    <button type="submit" class="ui button primary">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2024 Kacper Szymczak. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>
